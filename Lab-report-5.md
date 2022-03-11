@@ -40,6 +40,6 @@ Apparently, my code is correct but Joe's is not. The two versions of code are li
 
 [18]: 8.png
 
-The reason for this is that in Joe's MarkdownParse, it checks the index of "". It returns the link only if the index of "" is -1. In other words, it returns the output only if there is no "" in the link. Therefore, the following part of code should be fixed to deal with the conditions that the links are valid with "".
+I found a possible reason for Joe's failure. In his version, it checks the index of " " and returns the link only when the index of " " is -1. As a result, it returns the output only when there is no " " in the link. Therefore, this part should be fixed to deal with links valid with " ".
 
 # Second Example
