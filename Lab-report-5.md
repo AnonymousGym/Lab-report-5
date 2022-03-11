@@ -5,3 +5,8 @@ First, I ran the bash script with both Joe's version of MarkdownParse and my own
 ```
 time bash script.sh>results.txt
 ```
+Now I have two results.txt. I use the command to compare two results.txt:
+
+```
+diff results.txt resultsOld.txt
+```
