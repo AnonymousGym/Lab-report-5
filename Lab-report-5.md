@@ -17,8 +17,17 @@ diff results.txt resultsOld.txt
 ```
 # First Example
 
+Here we can see the link in 22.md is valid.
 ![Image][11]
 
 [11]: 1.png
+
+Here are the two results.
+![Image][12]
+
+[12]: 2.png
+![Image][13]
+
+[13]: 3.png
 
 # Second Example
