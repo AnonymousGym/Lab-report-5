@@ -43,3 +43,18 @@ Apparently, my code is correct but Joe's is not. The two versions of code are li
 I found a possible reason for Joe's failure. In his version, it checks the index of " " and returns the link only when the index of " " is -1. As a result, it returns the output only when there is no " " in the link. Therefore, this part should be fixed to deal with links valid with " ".
 
 # Second Example
+
+Here we can see the link in 578.md is not valid (it is a picture).
+![Image][19]
+
+[19]: 9.png
+
+Here are the two results.
+![Image][110]
+
+[110]: 10.png
+![Image][111]
+
+[111]: 11.png
+
+Again, my code is correct but Joe's is not. 
