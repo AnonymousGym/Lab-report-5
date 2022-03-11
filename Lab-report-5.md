@@ -1,4 +1,4 @@
-# __Lab Report 4__
+# __Lab Report 5__
 
 First, I ran the bash script with both Joe's version of MarkdownParse and my own MarkdownParse using the following command:
 
