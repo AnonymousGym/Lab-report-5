@@ -57,4 +57,10 @@ Here are the two results.
 
 [111]: 11.png
 
-Again, my code is correct but Joe's is not. 
+This time my code is wrong but Joe is correct. 
+
+![Image][17]
+
+[17]: 7.png
+
+The reason is that in my code ,there is no check about ! before brackets, so we cannot identify pictures with this code. Therefore, we can add some code to my version and spot pictures with _!_ if needed.
