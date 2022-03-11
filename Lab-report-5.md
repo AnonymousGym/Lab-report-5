@@ -15,3 +15,10 @@ Now I have two results.txt. I use the command to compare two results.txt:
 ```
 diff results.txt resultsOld.txt
 ```
+# First Example
+
+![Image][11]
+
+[11]: 1.png
+
+# Second Example
